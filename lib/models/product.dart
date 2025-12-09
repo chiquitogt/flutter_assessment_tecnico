@@ -1,7 +1,11 @@
 class Product {
-  final int id;
-  final String name;
-  final double price;
+  final int id; // Identicador unico del producto
+  final String name; // Nombre del producto
+  final double price; // Precio del producto
 
-  Product({required this.id, required this.name, required this.price});
+  Product({
+    required this.id,
+    required this.name,
+    required this.price,
+  }); // Constructor del producto
 }
